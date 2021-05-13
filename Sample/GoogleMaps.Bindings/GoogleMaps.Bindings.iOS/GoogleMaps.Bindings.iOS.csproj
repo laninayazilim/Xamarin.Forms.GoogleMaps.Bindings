@@ -145,12 +145,6 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoogleMaps.Bindings\GoogleMaps.Bindings.csproj">
-      <Project>{F4074883-B2B6-4725-AAC2-24BFCEB08377}</Project>
-      <Name>GoogleMaps.Bindings</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="image01.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
